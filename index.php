@@ -336,6 +336,23 @@ function greetMe () {
 }
 greetMe();
 
+function streetName ($sname) {
+    echo "$sname Asaba, <br>";
+
+}
+streetName ("DLA");
+streetName ("EZENEI");
+function homeAddress ($snumber, $sname) {
+    echo "$snumber street $sname Asaba, <br>";
+
+}
+homeAddress ("5th","DLA");
+homeAddress ("8th","Ezenei");
+
+echo "<br>";
+echo "<br>";
+
+
 
 
 
